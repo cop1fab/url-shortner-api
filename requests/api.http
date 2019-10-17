@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl": "https://www.aliexpress.com/item/32912613873.html?spm=a2g01.12597576.p99adbb.15.78066501CDduEy&gps-id=7315611&scm=1007.19881.118560.0&scm_id=1007.19881.118560.0&scm-url=1007.19881.118560.0&pvid=195279e2-6100-46d9-b8ec-48b77dc3dcec"
+}
