@@ -1,0 +1,31 @@
+{
+  "name": "url-shortner-api",
+  "version": "1.0.0",
+  "description": "URL SHORTNERS come handy when you want to share a URL but realize that it's long and scary! Haha, This is solving that.  --- ## Requirements",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cop1fab/url-shortner-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cop1fab/url-shortner-api/issues"
+  },
+  "homepage": "https://github.com/cop1fab/url-shortner-api#readme",
+  "dependencies": {
+    "config": "^3.2.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5",
+    "shortid": "^2.2.15",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
